@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 
 /**
  * @author chirag.s
+ * 
+ * This class to override the selenium interface
  *
  */
 public class ModifiedRemoteWebDriver {
