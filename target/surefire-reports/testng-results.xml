@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-14T16:37:32 IST" name="Command line suite" finished-at="2023-04-14T16:37:53 IST" duration-ms="21386">
+  <suite name="Command line suite" duration-ms="49066" started-at="2023-04-17T13:23:46 IST" finished-at="2023-04-17T13:24:35 IST">
     <groups>
     </groups>
-    <test started-at="2023-04-14T16:37:32 IST" name="Command line test" finished-at="2023-04-14T16:37:53 IST" duration-ms="21386">
+    <test name="Command line test" duration-ms="49066" started-at="2023-04-17T13:23:46 IST" finished-at="2023-04-17T13:24:35 IST">
       <class name="com.freeautomation.test.TestOrangeWebsite">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freeautomation.test.TestOrangeWebsite@7dcf94f8]" started-at="2023-04-14T16:37:32 IST" name="setUp" finished-at="2023-04-14T16:37:40 IST" duration-ms="8113" status="PASS">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.freeautomation.test.TestOrangeWebsite@4e7dc304]" name="setUp" is-config="true" duration-ms="30257" started-at="2023-04-17T13:23:46 IST" finished-at="2023-04-17T13:24:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:0, instance:com.freeautomation.test.TestOrangeWebsite@7dcf94f8]" started-at="2023-04-14T16:37:40 IST" name="login" finished-at="2023-04-14T16:37:52 IST" duration-ms="12061" status="PASS">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.freeautomation.test.TestOrangeWebsite@4e7dc304]" name="login" duration-ms="17953" started-at="2023-04-17T13:24:16 IST" finished-at="2023-04-17T13:24:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.freeautomation.test.TestOrangeWebsite@7dcf94f8]" started-at="2023-04-14T16:37:52 IST" name="tearDown" finished-at="2023-04-14T16:37:53 IST" duration-ms="1173" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freeautomation.test.TestOrangeWebsite@4e7dc304]" name="tearDown" is-config="true" duration-ms="809" started-at="2023-04-17T13:24:34 IST" finished-at="2023-04-17T13:24:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

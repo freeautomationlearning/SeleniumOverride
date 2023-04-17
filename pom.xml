@@ -44,6 +44,15 @@
 		</plugins>
 	</build>
 	
+	<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>Chirag Singh</name>
+     <url>https://github.com/freeautomationlearning/SeleniumOverride</url>
+   </repository>
+</distributionManagement>
+
+
 	<dependencies>
 		<dependency>
     		<groupId>org.seleniumhq.selenium</groupId>
