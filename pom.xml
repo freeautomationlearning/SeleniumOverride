@@ -2,8 +2,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.freeautomation</groupId>
 	<artifactId>SeleniumOverride</artifactId>
-	<version>1.0.0</version>
-
+	<version>1.1.0</version>
+<packaging>jar</packaging>
 <developers>
 		<developer>
 			<name>Chirag Singh</name>
@@ -47,7 +47,7 @@
 	<distributionManagement>
    <repository>
      <id>github</id>
-     <name>Chirag Singh</name>
+     <name>freeautomationlearning</name>
      <url>https://github.com/freeautomationlearning/SeleniumOverride</url>
    </repository>
 </distributionManagement>

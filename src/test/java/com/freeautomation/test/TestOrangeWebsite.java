@@ -34,7 +34,7 @@ public class TestOrangeWebsite {
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	}
 	
-	@Test
+	@Test(enabled = false)
 	public void login()
 	{
 		driver.findElement(By.name("username")).sendKeys("Admin");

@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="49066" started-at="2023-04-17T13:23:46 IST" finished-at="2023-04-17T13:24:35 IST">
+  <suite name="Command line suite" duration-ms="12" started-at="2023-04-17T14:22:13 IST" finished-at="2023-04-17T14:22:13 IST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="49066" started-at="2023-04-17T13:23:46 IST" finished-at="2023-04-17T13:24:35 IST">
-      <class name="com.freeautomation.test.TestOrangeWebsite">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.freeautomation.test.TestOrangeWebsite@4e7dc304]" name="setUp" is-config="true" duration-ms="30257" started-at="2023-04-17T13:23:46 IST" finished-at="2023-04-17T13:24:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.freeautomation.test.TestOrangeWebsite@4e7dc304]" name="login" duration-ms="17953" started-at="2023-04-17T13:24:16 IST" finished-at="2023-04-17T13:24:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freeautomation.test.TestOrangeWebsite@4e7dc304]" name="tearDown" is-config="true" duration-ms="809" started-at="2023-04-17T13:24:34 IST" finished-at="2023-04-17T13:24:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.freeautomation.test.TestOrangeWebsite -->
+    <test name="Command line test" duration-ms="12" started-at="2023-04-17T14:22:13 IST" finished-at="2023-04-17T14:22:13 IST">
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>
