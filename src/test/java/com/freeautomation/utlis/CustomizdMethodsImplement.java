@@ -1,7 +1,5 @@
 package com.freeautomation.utlis;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.List;
 
@@ -9,8 +7,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import com.freeautomation.override.CustomizeMethods;
 
 public class CustomizdMethodsImplement{
 

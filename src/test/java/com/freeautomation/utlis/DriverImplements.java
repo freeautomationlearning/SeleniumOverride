@@ -3,7 +3,6 @@ package com.freeautomation.utlis;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 
@@ -24,7 +23,6 @@ public class DriverImplements implements InvocationHandler {
 
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-		System.out.println("============================== DRIVER "+method.getName()+" =============================");
 		switch (method.getName()) {
 		case "findElement":
 			try {
@@ -42,7 +40,6 @@ public class DriverImplements implements InvocationHandler {
 			System.out.println("CHIRAG AWLAYS switchTo() : ");
 			return driver.switchTo();
 		default:
-			System.out.println("DEFAULT ==  "+method.getName());
 			return method.invoke(driver, args);
 		}
 	}
