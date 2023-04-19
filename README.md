@@ -10,7 +10,49 @@ If you want to override WebElement Interface methods such as click, isDisplayed,
 
 ## Setup
 
-I have uploaded the WebDriver Overrider as github package. You can customize the Maven setting.xml to downoad this package. All steps are mentioned on the url https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry
+I have uploaded the WebDriver Overrider as github package. You can customize the Maven setting.xml to downoad this package. All steps are mentioned on the url [Github package configuration](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry) 
+
+### 1. Create settings.xml under .m2 folder and mention the below details
+
+```
+ <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <activeProfiles>
+    <activeProfile>github</activeProfile>
+  </activeProfiles>
+
+  <profiles>
+    <profile>
+      <id>github</id>
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>https://repo1.maven.org/maven2</url>
+        </repository>
+        <repository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/freeautomationlearning/SeleniumOverride</url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+
+  <servers>
+    <server>
+      <id>github</id>
+      <username>USERNAME</username>
+      <password>TOKEN</password>
+    </server>
+  </servers>
+</settings>
+```
+### 2. Added below dependency on the pom.xml
 
 ```
  <dependency>
@@ -24,7 +66,7 @@ I have uploaded the WebDriver Overrider as github package. You can customize the
 
 Add the below code to override the WebDriver and WebElement methods
 
-### 1. Init driver instance of Custom WebDriver
+### 1. Create driver instance of Custom WebDriver
 ```
 // Create the WebDriver instance
 WebDriver d = new FirefoxDriver();
