@@ -143,7 +143,7 @@ WebDriver driver;
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	}
 	
-	@Test(enabled = false)
+	@Test
 	public void login()
 	{
 		driver.findElement(By.name("username")).sendKeys("Admin");
